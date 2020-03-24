@@ -1,0 +1,97 @@
+body {
+  color: white;
+}
+
+.filter-main {
+  display: flex;
+  justify-content: space-around;
+  color: black;
+  margin-top: 20px;
+  margin-left: 130px;
+  width: 200px;
+}
+
+
+
+.App {
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+
+}
+
+.card-active {
+  display: flex;
+  flex-direction: column;
+  background-color: purple;
+  margin: 15px;
+  border-radius: 10px;
+  padding-bottom: 15px;
+  width: 20%;
+}
+
+.card-inactive {
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+  margin: 15px;
+  border-radius: 10px;
+  padding-bottom: 15px;
+  width: 20%;
+}
+
+img {
+  height: 400px;
+  padding: 15px;
+  width: auto;
+}
+
+.name {
+  padding-left: 15px;
+}
+
+.position {
+  padding-left: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-active {
+    display: flex;
+    flex-direction: column;
+    background-color: purple;
+    margin: 15px;
+    border-radius: 10px;
+    padding-bottom: 15px;
+    width: 40%;
+  }
+
+  .card-inactive {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    margin: 15px;
+    border-radius: 10px;
+    padding-bottom: 15px;
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .card-active {
+    display: flex;
+    flex-direction: column;
+    background-color: purple;
+    border-radius: 10px;
+    padding-bottom: 15px;
+    width: 80%;
+  }
+
+  .card-inactive {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    border-radius: 10px;
+    padding-bottom: 15px;
+    width: 80%;
+  }
+}
